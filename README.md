@@ -1,2 +1,0 @@
-# Hyqwf.github.io
-myBlog
