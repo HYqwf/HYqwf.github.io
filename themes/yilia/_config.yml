@@ -1,0 +1,73 @@
+# Header
+
+menu:
+  主页: /
+  随笔: /tags/随笔
+
+# SubNav
+subnav:
+  github: "https:github.com/HYqwf/HYqwf.github.io.git"
+  weibo: "http://weibo.com/5312620297/profile?topnav=1&wvr=6&is_all=1"
+  rss: "#"
+  zhihu: "#"
+  cnblogs："http://www.cnblogs.com/xinxinmifan/"
+  #douban: "#"
+  #mail: "#"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
+
+rss: /atom.xml
+
+# 是否需要修改 root 路径
+# 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
+# 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
+root: 
+
+# Content
+excerpt_link: more
+fancybox: true
+mathjax: false
+
+# 是否开启动画效果
+animate: true
+
+# 是否在新窗口打开链接
+open_in_new: false
+
+# Miscellaneous
+google_analytics: ''
+favicon: /favicon.png
+
+#你的头像url
+avatar: /avatar.png
+
+#是否开启分享
+share_jia: true
+share_addthis: false
+
+#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+duoshuo: true
+
+# 如不需要，将该项置为false
+# 比如
+#smart_menu:
+#  friends: false
+
+smart_menu:
+  innerArchive: '所有文章'
+  tagcloud: '标签'
+  friends: '友链'
+  aboutme: '关于我'
+
+friends:
+  友情链接1: http://jackzong.github.io/
+  友情链接2: http://www.bennanzi.com/
+  友情链接3: http://www.cnblogs.com/alsy/
+  友情链接4: http://Mengying.github.io/
+  友情链接5: https://jiweixia233.github.io/
+  友情链接6: http://www.ljc520.com/
+
+aboutme: 每个人心里都有一个属于自己的小魔怪。<br>然而，终有一天，它会逃出来。而你，自然变成了奥特曼。。。可是你是不打怪兽的奥特曼！
