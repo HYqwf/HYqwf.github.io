@@ -1,76 +1,73 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+# Header
 
-# Site
-title: MifanMonster
-subtitle:
-description:
-author: MIFAN
-language:
-timezone:
+menu:
+  主页: /
+  随笔: /tags/随笔
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# SubNav
+subnav:
+  github: "https:github.com/HYqwf/HYqwf.github.io.git"
+  weibo: "http://weibo.com/5312620297/profile?topnav=1&wvr=6&is_all=1"
+  rss: "#"
+  zhihu: "#"
+  cnblogs："http://www.cnblogs.com/xinxinmifan/"
+  #douban: "#"
+  #mail: "#"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
 
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+rss: /atom.xml
 
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
+# 是否需要修改 root 路径
+# 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
+# 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
+root: 
 
-# Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+# Content
+excerpt_link: more
+fancybox: true
+mathjax: false
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+# 是否开启动画效果
+animate: true
 
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 10
-pagination_dir: page
+# 是否在新窗口打开链接
+open_in_new: false
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: yilia
+# Miscellaneous
+google_analytics: ''
+favicon: /favicon.png
 
+#你的头像url
+avatar: /avatar.png
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/HYqwf/Hyqwf.github.io.git
-  branch: master
-stylus:
-  compress: true
+#是否开启分享
+share_jia: true
+share_addthis: false
+
+#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+duoshuo: true
+
+# 如不需要，将该项置为false
+# 比如
+#smart_menu:
+#  friends: false
+
+smart_menu:
+  innerArchive: '所有文章'
+  tagcloud: '标签'
+  friends: '友链'
+  aboutme: '关于我'
+
+friends:
+  友情链接1: http://jackzong.github.io/
+  友情链接2: http://www.bennanzi.com/
+  友情链接3: http://www.cnblogs.com/alsy/
+  友情链接4: http://Mengying.github.io/
+  友情链接5: https://jiweixia233.github.io/
+  友情链接6: http://www.ljc520.com/
+
+aboutme: 每个人心里都有一个属于自己的小魔怪。<br>然而，终有一天，它会逃出来。而你，自然变成了奥特曼。。。可是你是不打怪兽的奥特曼！
